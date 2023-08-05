@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Roboto_Regular';
+  src: url('./Roboto_Regular.ttf') format('truetype'),
+       url('./Roboto_Regular.woff') format('woff'),
+       url('./Roboto_Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

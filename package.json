@@ -1,0 +1,28 @@
+{
+  "name": "Meetopia",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node src/server.cjs\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "production": "node src/server.cjs"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "express": "^4.18.2",
+    "howler": "^2.2.3",
+    "peer": "^1.0.0",
+    "pixi-plugin-bump": "^1.1.8",
+    "pixi.js": "^6",
+    "planck": "^1.0.0-alpha.4",
+    "socket.io": "^4.6.2",
+    "tweedle.js": "^2.0.1",
+    "uuid": "^9.0.0",
+    "webfontloader": "^1.6.28"
+  }
+}

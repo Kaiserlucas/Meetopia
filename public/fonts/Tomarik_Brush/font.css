@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Tomarik_Brush';
+    src: url('Tomarik_Brush.woff2') format('woff2'),
+        url('Tomarik_Brush.woff') format('woff'),
+        url('Tomarik_Brush.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
