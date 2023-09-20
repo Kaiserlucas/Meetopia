@@ -27,7 +27,7 @@ canvas {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   padding: 10px;
-  width: 30%;
+  width: 30%; /* Default width for larger screens */
   position: absolute;
   top: 0;
   left: 0;
@@ -41,6 +41,18 @@ canvas {
   border-radius: 10px;
   border: 2px solid #333;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  aspect-ratio: 4/3; /* Maintain a 16:9 aspect ratio for all videos */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  #video-container {
+    width: 90%; /* Adjust the width for smaller screens */
+  }
+
+  #video-container video {
+    aspect-ratio: 4/3; /* Change the aspect ratio for smaller screens if needed */
+  }
 }
 
 #controls-container {

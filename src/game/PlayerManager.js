@@ -160,6 +160,7 @@ export default class PlayerManager {
         const player = this.players.get(id);
         
         if (player) {
+            this.world.namesContainer.removeChild(player.textContainer);
             player.parent.removeChild(player);
             player.physics.destroyBody(player.physicsBody);
             player.destroy();
